@@ -1,0 +1,51 @@
+.clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+
+body{
+    margin: 0;
+    padding: 1rem;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header
+
+.site-header header{
+    padding: 20px 0;
+}
+.brand header{
+    float: left;
+}
+header nav{
+    float: right;
+}
+
+
+.content-wrap{
+    margin-top: 20px;
+}
+.main-article{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.sidebar{
+    float: right;
+    width: 28%;
+    box-sizing: border-box;
+}
+
+
+.section { margin-bottom: 16px; }
+
+    /* Footer — ensure it's below floats by using clearfix */
+.site-footer footer{
+    margin-top: 24px;
+}
